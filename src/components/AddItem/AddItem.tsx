@@ -18,6 +18,9 @@ const AddItem = ({ onAdd }: AddItemProps) => {
       onAdd(userInput);
       setUserInput("");
     }
+    else {
+      alert("Please enter a todo!");
+    }
   };
 
   return (
