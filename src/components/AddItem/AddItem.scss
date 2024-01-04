@@ -7,17 +7,24 @@
     padding: 1rem;
 
     &__input {
+        font-size: 0.9rem;
         flex-grow: 1;
-        border: 2px solid $color-black;
-        border-radius: 0.7rem;
+        border: 2px solid $light-violet;
+        border-radius: 0.8rem;
         padding: 0.5rem 2.5rem 0.5rem 0.5rem;
         background-color: $color-white;
         outline: transparent;
+        font-family: $font-body-secondary;
+
+        @media screen and (min-width: $breakpoint-mobile-medium) {
+
+            font-size: 0.8rem;
+        }
     }
 
     &__button {
         position: absolute;
-        right: 1.4rem;
+        right: 1.6rem;
         background: none;
         border: none;
         cursor: pointer;
@@ -25,5 +32,15 @@
         align-items: center;
         top: 50%;
         transform: translateY(-50%);
+
+        &--icon {
+            width: 1.2rem;
+            height: 1.2rem;
+            color: #B2B2FF;
+        }
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
 }

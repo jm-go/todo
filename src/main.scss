@@ -3,16 +3,29 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: $font-body;
 }
 
 body {
-    background-color: $color-grey;
+    background-color: $light-lavender;
     overflow-x: hidden;
 }
 
 html {
     font-size: 16px;
+}
+
+@media screen and (min-width: $breakpoint-mobile-medium) {
+
+    html {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: $breakpoint-mobile-large) {
+
+    html {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: $breakpoint-tablet) {
