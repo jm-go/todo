@@ -2,8 +2,8 @@ import Item from "../Item/Item";
 import "./List.scss";
 
 type ListProps = {
-  tasks: { id: string; name: string }[];
-  onDelete: (id: string) => void;
+  tasks: { id: number; name: string }[];
+  onDelete: (id: number) => void;
 };
 
 const List = ({ tasks, onDelete }: ListProps) => {

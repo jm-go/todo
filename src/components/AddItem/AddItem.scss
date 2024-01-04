@@ -17,7 +17,7 @@
 
     &__button {
         position: absolute;
-        right: 1.4rem;
+        right: 1.6rem;
         background: none;
         border: none;
         cursor: pointer;
@@ -25,5 +25,10 @@
         align-items: center;
         top: 50%;
         transform: translateY(-50%);
+
+        &--icon {
+            width: 1.2rem;
+            height: 1.2rem;
+        }
     }
 }

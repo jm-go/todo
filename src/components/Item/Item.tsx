@@ -28,7 +28,7 @@ const Item = ({ task, onDelete }: ItemProps) => {
         {task}
       </span>
       <button className="item__delete" onClick={onDelete}>
-        <Trash2 />
+        <Trash2 className="item__delete--icon"/>
       </button>
     </div>
   );
