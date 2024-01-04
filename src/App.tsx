@@ -36,8 +36,10 @@ const App = () => {
   return (
     <>
       <Navbar onReset={handleResetTasks} />
-      <AddItem onAdd={handleAddTask} />
-      <List tasks={tasks} onDelete={handleDeleteTask} />
+      <div className="main">
+        <AddItem onAdd={handleAddTask} />
+        <List tasks={tasks} onDelete={handleDeleteTask} />
+      </div>
     </>
   );
 };

@@ -8,6 +8,8 @@
     &__empty-message {
         text-align: center;
         color: $color-black;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
+        font-family: $font-body-secondary;
+        width: 85%;
     }
 }

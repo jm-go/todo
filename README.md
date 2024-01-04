@@ -8,6 +8,7 @@ TODO App is a simple, intuitive task management application designed to help use
 - **Task List**: Displays all the added tasks.
 - **Mark as Completed**: Users can mark tasks as completed, which will cross out the task text.
 - **Delete Tasks**: Each task can be deleted from the list using a bin icon.
+- **Reset**: Reset all tasks at once.
 
 ## Technologies
 - React
