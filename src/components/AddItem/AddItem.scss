@@ -1,0 +1,29 @@
+@use "../../assets/styles/variables" as *;
+
+.add {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+    &__input {
+        flex-grow: 1;
+        border: 2px solid $color-black;
+        border-radius: 0.7rem;
+        padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+        background-color: $color-white;
+        outline: transparent;
+    }
+
+    &__button {
+        position: absolute;
+        right: 1.4rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

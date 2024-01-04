@@ -1,0 +1,31 @@
+@use "../../assets/styles/variables" as *;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-black;
+    padding: 1.3rem;
+    color: $color-white;
+
+    &__title {
+        font-family: $font-body;
+        margin-left: 1rem;
+    }
+
+    &__reset {
+        margin-right: 0.5rem;
+        background-color: $color-white;
+        color: $color-black;
+        font-family: $font-body;
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        border-radius: 0.7rem;
+        font-size: 0.8rem;
+
+        &:hover {
+            background-color: darken($color-grey, 10%);
+        }
+    }
+}

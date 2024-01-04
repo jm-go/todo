@@ -1,0 +1,12 @@
+@use "../../assets/styles/variables" as *;
+
+.list {
+    display: flex;
+    justify-content: center;
+
+    &__empty-message {
+        text-align: center;
+        color: $color-black;
+        font-size: 0.75rem;
+    }
+}
