@@ -21,7 +21,7 @@ MyTodos App is a simple, intuitive task management application designed to help 
 - Install dependencies: npm install.
 - Start the application: npm run dev.
 
-Alternatively, view the live version deployed on GitHub Pages at [View Live TODO App](https://jm-go.github.io/todo/).
+Alternatively, view the live version deployed on GitHub Pages at [View Live MyTodos App](https://jm-go.github.io/todo/).
 
 ## Usage
 - When the application loads, it presents a simple interface for task management.
