@@ -1,0 +1,27 @@
+@use "../../assets/styles/variables" as *;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $colour-black;
+    padding: 1rem;
+    color: $colour-white;
+
+    &__title {
+        font-family: $font-body;
+    }
+
+    &__reset {
+        background-color: $colour-grey;
+        color: $colour-black;
+        font-family: $font-body;
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken($colour-grey, 10%);
+        }
+    }
+}
