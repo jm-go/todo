@@ -6,7 +6,6 @@ type AddItemProps = {
   onAdd: (task: string) => void;
 };
 
-
 // This component allows users to input and add new tasks
 const AddItem = ({ onAdd }: AddItemProps) => {
   const [userInput, setUserInput] = useState<string>("");
@@ -21,8 +20,7 @@ const AddItem = ({ onAdd }: AddItemProps) => {
     if (userInput.trim() !== "") {
       onAdd(userInput);
       setUserInput("");
-    }
-    else {
+    } else {
       alert("Please enter a todo!"); // Alert if input is empty
     }
   };
