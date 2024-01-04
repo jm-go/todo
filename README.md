@@ -10,6 +10,10 @@ MyTodos App is a simple, intuitive task management application designed to help 
 - **Delete Tasks**: Each task can be deleted from the list using a bin icon.
 - **Reset**: Resets all tasks at once.
 
+<p align="center">
+  <img src="src/assets/images/MyTodos.png" alt="MyTodos Interface" width="150"><br>
+</p>
+
 ## Technologies
 - React
 - TypeScript
