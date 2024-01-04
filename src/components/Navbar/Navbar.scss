@@ -4,24 +4,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $colour-black;
+    background-color: $color-black;
     padding: 1rem;
-    color: $colour-white;
+    color: $color-white;
 
     &__title {
         font-family: $font-body;
+        margin-left: 1rem;
     }
 
     &__reset {
-        background-color: $colour-grey;
-        color: $colour-black;
+        margin-right: 0.5rem;
+        background-color: $color-white;
+        color: $color-black;
         font-family: $font-body;
         border: none;
         padding: 0.5rem 1rem;
         cursor: pointer;
+        border-radius: 0.7rem;
 
         &:hover {
-            background-color: darken($colour-grey, 10%);
+            background-color: darken($color-grey, 10%);
         }
     }
 }

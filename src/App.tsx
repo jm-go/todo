@@ -1,4 +1,4 @@
-import "./App.css";
+import "./main.scss";
 import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
@@ -7,8 +7,8 @@ const App = () => {
       <Navbar onReset={function (): void {
         throw new Error("Function not implemented.");
       } } />
-      <AddItem />
-      <List />
+      {/* <AddItem />
+      <List /> */}
     </>
   );
 };
