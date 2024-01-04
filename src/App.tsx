@@ -18,12 +18,7 @@ const App = () => {
 
   // Function to handle adding a new task
   const handleAddTask = (taskContent: string) => {
-    // New task is created as an object and the list of tasks is updated.
-    const newTask = {
-      id: taskId,
-      content: taskContent,
-    };
-    setTasks([...tasks, newTask]);
+    setTasks([...tasks, {id: taskId, content: taskContent}]);
     setTaskId(taskId + 1);
   };
 

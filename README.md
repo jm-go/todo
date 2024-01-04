@@ -1,7 +1,7 @@
-# TODO Mobile App
+# MyTodos Mobile App
 
 ## Overview
-TODO App is a simple, intuitive task management application designed to help users keep track of their daily tasks. The app allows users to add tasks, mark them as completed, and delete them as needed.
+MyTodos App is a simple, intuitive task management application designed to help users keep track of their daily tasks. The app allows users to add tasks, mark them as completed, and delete them as needed.
 
 ## Features
 - **Add Tasks**: Users can add new tasks to their TODO list using a text box and a "+" button.
